@@ -5,6 +5,7 @@
 #' @param v conjunto de variables
 #' @export
 #' 
+
 acp<-function (base,v){
   
   valida(base,v)
