@@ -24,8 +24,8 @@ acp<-function (base,v){
   b2<-data.matrix(b1)
   res1<-b2 %*% eig
   res2<-eig
-  assign("Factors",res1,envir = .GlobalEnv)
-  assign("EigVal",res2,envir = .GlobalEnv)
-
+  assign("CFactorial",res1,envir = .GlobalEnv)
+  assign("Ponderadores",res2,envir = .GlobalEnv)
+  message("Se generaron correctamente la carga factorial y ponderadores (Eigenvalores)") 
 }
  
