@@ -3,7 +3,7 @@
 Análisis de Componentes Principales / Principal Component Analysis
 
 
-## Español
+## Objetivo
 
 El objetivo es replicar un análisis de componentes principales agilizando el proceso de selección de variables. 
 
