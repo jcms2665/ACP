@@ -35,9 +35,13 @@ Para poder ejecutar este programa se requiere seguir los siguientes pasos:
 
 
 
-## English
+## Uso
 
-The aim of this package is to run a principal component analysis, the main feature of this function is to select easily the variables.
+Con esta información, se puede correr el programa de la siguiente manera:
+
+```
+              acp(x,y,u)
+```
 
 
 
