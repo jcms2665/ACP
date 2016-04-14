@@ -37,13 +37,26 @@ Para poder ejecutar este programa se requiere seguir los siguientes pasos:
 
 ## Uso
 
-Con esta información, se puede correr el programa de la siguiente manera:
-
-```
-              acp(x,y,u)
-```
+Supongamos que se tiene una base llamada _base1_ y se quiere obtener el factorial de las variables _ind1_, ..., _ind5_
 
 
++ Paso 0. Una vez instalado el paquete **ACP**, hay que cargarlo
 
+    ```
+              library(ACP)
+    ```
 
++ Paso 1. Definir las variables que se van a considerar para el análisis
+
+    ```
+              v<-c("ind1","ind2","ind3","ind4","ind5")
+    ```
+
++ Paso 2. Ejecutar la función  **acp**, la cual requiere de dos argumentos: _nombre de la base_ y _variables_
+
+    ```
+              acp(base1,v)
+    ```
+
++ **Resultado**. El resultado es dos base: _CFactorial_ y _Ponderadores_. La primera tiene la carga factorial para cada registro y la segunda la estructura factorial del modelo (eigvalores)
 
