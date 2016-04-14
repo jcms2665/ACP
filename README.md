@@ -37,7 +37,7 @@ Para poder ejecutar este programa se requiere seguir los siguientes pasos:
 
 ## Uso
 
-Supongamos que se tiene una base llamada _base1_ y se quiere obtener el factorial de las variables _ind1_, ..., _ind5_
+Supongamos que se tiene una base llamada _base1_ y se quiere hacer un Análisis de Componentes Principales (ACP) con las variables  _ind1_, ..., _ind5_
 
 
 + Paso 0. Una vez instalado el paquete **ACP**, hay que cargarlo
