@@ -5,7 +5,7 @@ Análisis de Componentes Principales / Principal Component Analysis
 
 ## Objetivo
 
-El objetivo es replicar un análisis de componentes principales agilizando el proceso de selección de variables. 
+Replicar un Análisis de Componentes Principales (ACP) agilizando el proceso de selección de variables. 
 
 #### Instalación
 
