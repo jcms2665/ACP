@@ -35,7 +35,7 @@ Para poder ejecutar este programa se requiere seguir los siguientes pasos:
 
 
 
-## Uso
+## Ejemplo
 
 Supongamos que se tiene una base llamada _base1_ y se quiere hacer un Análisis de Componentes Principales (ACP) con las variables  _ind1_, ..., _ind5_
 
