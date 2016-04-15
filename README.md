@@ -63,5 +63,5 @@ Supongamos que se tiene una base llamada _base1_ y se quiere hacer un Análisis 
               acp(base1,v)
     ```
 
-+ **Resultado**. El resultado es dos base: _CFactorial_ y _Ponderadores_. La primera tiene la carga factorial para cada registro y la segunda la estructura factorial del modelo (eigvalores)
++ **Resultado**. El resultado es dos base: _CFactorial_ y _Ponderadores_. La primera tiene la carga factorial para cada registro y la segunda la estructura factorial del modelo (eigenvalores)
 
