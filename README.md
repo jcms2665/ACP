@@ -8,6 +8,8 @@ Análisis de Componentes Principales / Principal Component Analysis
 Replicar un Análisis de Componentes Principales (ACP) agilizando el proceso de selección de variables. 
 > El siguiente paso será buscar la interacción con muestras complejas
 
+
+
 #### Instalación
 
 Para poder ejecutar este programa se requiere seguir los siguientes pasos:
@@ -36,24 +38,26 @@ Para poder ejecutar este programa se requiere seguir los siguientes pasos:
 
 
 
+
+
 ## Ejemplo
 
 Supongamos que se tiene una base llamada _base1_ y se quiere hacer un Análisis de Componentes Principales (ACP) con las variables  _ind1_, ..., _ind5_
 
 
-+ Paso 0. Una vez instalado el paquete **ACP**, hay que cargarlo
++ Paso 4. Una vez instalado el paquete (paso 3) **ACP**, se debe de cargar la librería:
 
     ```
               library(ACP)
     ```
 
-+ Paso 1. Definir las variables que se van a considerar para el análisis
++ Paso 5. Definir las variables que se van a considerar para el análisis. Esto se puede hacer con un vector de la siguiente manera:
 
     ```
               v<-c("ind1","ind2","ind3","ind4","ind5")
     ```
 
-+ Paso 2. Ejecutar la función  **acp**, la cual requiere de dos argumentos: _nombre de la base_ y _variables_
++ Paso 6. Ejecutar la función  **acp**, la cual requiere de dos argumentos: _nombre de la base_ (base1) y _variables_ (v)
 
     ```
               acp(base1,v)
